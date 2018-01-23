@@ -1,0 +1,146 @@
+.section_4 {
+	position: relative;
+	z-index: 222;
+	-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+	max-height: 1024px;
+}
+
+.section_4:before {
+	content: '';
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(images/special.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -2;
+}
+
+.section_4:after {
+	content: '';
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(135deg, #9642f8, #1f27f8);
+	background-repeat: no-repeat;
+	z-index: -1;
+	opacity: .5
+}
+
+.section_4 .inner {
+	max-width: 900px;
+	margin: auto;
+	height: 98%;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.section_4 .inner .title {
+	height: 15%;
+	font-size: 2.6em;
+	font-weight: bold;
+	color: #fff;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.section_4 .inner .cards {
+	height: 85%;
+	padding: 2% 1% 5% 1%;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+}
+
+.section_4 .inner .cards .card {
+	position: relative;
+	background: #fff;
+	width: 27%;
+	height: 90%;
+	padding-top: 5%;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.section_4 .inner .cards .card:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transform: scale(.98);
+	transform: scale(.98)
+}
+
+.section_4 .inner .cards .card:nth-child(1) {
+	height: 70%;
+}
+
+.section_4 .inner .cards .card:nth-child(2) {
+	height: 80%;
+}
+
+.section_4 .inner .cards .card:nth-child(3) {
+	background: #241cbd;
+	color: #fff;
+}
+
+.section_4 .inner .cards .card:nth-child(3) .name {
+	background: #fff;
+	color: #000;
+}
+
+.section_4 .inner .cards .name {
+	background: linear-gradient(135deg, #9642f8, #1f27f8);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: auto;
+	text-align: center;
+	line-height: 150px;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+.section_4 .inner .cards .description .list {
+	width: 100%;
+	padding: 50px 40px;
+	line-height: 30px;
+}
+
+.section_4 .inner .cards .description .price {
+	position: absolute;
+	bottom: 30px;
+	font-size: 1.4em;
+	font-weight: bold;
+	padding: 0 40px;
+}

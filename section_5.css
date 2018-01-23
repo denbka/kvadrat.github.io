@@ -1,0 +1,124 @@
+.section_5 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+.section_5 .form {
+	color: #1f1f1f;
+	margin: auto;
+	max-width: 600px;
+	background: #fff;
+	border-radius: 2px;
+/*
+	-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px 40px 30px;
+*/
+}
+.section_5 .form .contacts {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	padding: 20px;
+}
+
+.section_5 .form .contacts > div {
+	width: 50%;
+	padding: 20px 20px 0 20px;
+	line-height: 25px;
+	font-weight: 300;
+}
+
+.section_5 .form .contacts > div i {
+	font-size: 1.7em;
+	color: #443cd6;
+	margin-right: 10px;
+	margin-top: 2px;
+	cursor: pointer;
+	-webkit-transition: none;
+	transition: none;
+}
+
+.section_5 .form .contacts > div i:hover {
+	color: #8c86f0;
+}
+
+.section_5 .form .contacts > div span {
+	font-weight: bold;
+}
+
+.section_5 .form form {
+	padding: 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.section_5 .form .title {
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.section_5 .form form input,
+.section_5 .form form textarea {
+	border: 1px solid #555;
+	background: #fff;
+	border-radius: 2px;
+	padding: 10px 15px;
+	resize: none;
+	margin: 10px;
+	font-family: inherit;
+	font-size: 1em;
+}
+
+.section_5 .form .text_inp {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.section_5 .form form input {
+	width: 50%
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-family: roboto, sans-serif;
+	color: #1f1f1f;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	font-family: roboto, sans-serif;
+	color: #1f1f1f;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	font-family: roboto, sans-serif;
+	color: #1f1f1f;
+}
+:-moz-placeholder { /* Firefox 18- */
+	font-family: roboto, sans-serif;
+	color: #1f1f1f;
+}
+
+.section_5 .form form input[type="submit"] {
+	border: 2px solid #443cd6;
+	display: block;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.section_5 .form form input[type="submit"]:hover {
+	background: #443cd6;
+	color: #fff;
+}

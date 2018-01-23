@@ -1,0 +1,94 @@
+.wrapper .section_2 {
+	padding-top: 3%;
+	color: #fff;
+	text-align: center;
+}
+
+.wrapper .section_2 .inner {
+	width: 96%;
+	height: 96%;
+	margin: auto;
+	background: linear-gradient(135deg, #9642f8, #1f27f8);
+	border-radius: 2px;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	
+	-webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+	box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper .section_2 .inner .title {
+	height: 15%;
+	
+	font-size: 2.6em;
+	font-weight: bold;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+}
+
+.wrapper .section_2 .inner .content {
+	
+	height: 85%;
+	
+	padding: 2% 0 5% 0;
+	
+	max-width: 1170px;
+	margin: 0 auto;
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	-ms-flex-pack: distribute;
+	
+	justify-content: space-around;
+	
+	-ms-flex-line-pack:distribute;
+	align-content:space-around;
+	
+}
+
+.wrapper .section_2 .inner .box {
+	width: 40%;
+}
+
+.wrapper .section_2 .inner .box .icon {
+	font-size: 4em;
+	color: #12159e;
+}
+
+.wrapper .section_2 .inner .box:nth-child(2) .icon {
+	font-size:  1.4em;
+	line-height: 33px;
+	letter-spacing: 4px
+}
+
+.wrapper .section_2 .inner .box .name {
+	font-size: 1.4em;
+	line-height: 38px;
+}
+
+
+.wrapper .section_2 .inner .box li {
+	line-height: 23px;
+}
